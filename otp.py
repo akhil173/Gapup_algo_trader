@@ -11,8 +11,8 @@ import html
 import re
 
 host = 'imap.gmail.com'
-username = 'akhil.sa352001@gmail.com'
-password = 'Akhil@0305'
+username = 'Your email id'
+password = 'Your password'
 
 
 def get_otp():
@@ -34,9 +34,3 @@ def get_otp():
     print(otp)
     return otp
 
-
-# f = open('token.json')
-# data = json.load(f)
-# url = 'https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=ya29.a0ARrdaM-PLgimF3SKdH_BD0PEc78qqKML7DSSsYl2r2Lu5nF3lMLWxXuQ1vE-FyfYewVC6mCMdBVlDvmixUiyb8OukEp_yVPD45QxlcqzKsdbkBOJ2dHR3aMXzHRlIB_a4-41HeAXcu29lHHY_L52W9Py23O4UA'
-# access = requests.get(url)
-# access_data = access.json()
